@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Hello App
+GenericName=Hello World App
+Comment=I can make apps too!
+Categories=Utility;Education;Programming;
+Exec=com.github.ondb.hello-app
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=Hello;World;HelloApp;
