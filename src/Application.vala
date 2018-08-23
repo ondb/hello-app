@@ -9,11 +9,11 @@ public class MyApp : Gtk.Application {
 
   protected override void activate() {
     var mainWindow = new Gtk.ApplicationWindow(this);
-    var label      = new Gtk.Label("This is my first app!");
+    var label      = new Gtk.Label(_("This is my first app!"));
 
     mainWindow.default_height = 360;
     mainWindow.default_width  = 480;
-    mainWindow.title          = "Hello-App";
+    mainWindow.title          = _("Hello-App");
     mainWindow.add(label);
     mainWindow.show_all();
   }
