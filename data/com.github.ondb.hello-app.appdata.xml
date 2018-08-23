@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 Önder Bakırtaş <ondb.me@gmaıl.com> -->
+<component type="desktop">
+  <id>com.github.ondb.hello-app</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Hello App</name>
+  <summary>This is a start of the beginnig</summary>
+  <description>
+    <p>I'm doing this for fun and all but it's gonna blow up you all.</p>
+  </description>
+  <!-- elementary OS config -->
+  <custom>
+     <value key="x-appcenter-color-primary">#00528E</value>
+     <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+     <value key="x-appcenter-suggested-price">0</value>
+  </custom>
+</component>
