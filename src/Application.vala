@@ -11,12 +11,24 @@ public class MyApp : Gtk.Application {
 
   protected override void activate() {
     var mainWindow = new Gtk.ApplicationWindow(this);
-    var label      = new Gtk.Label(_("This is my first app!"));
+    var grid       = new Gtk.Grid();
+    var button     = new Gtk.Button.with_label(_("Click me!"));
+    var label      = new Gtk.Label(null);
+    
+    grid.orientation = Gtk.Orientation.VERTICAL;
+    grid.row_spacing = 6;
+    grid.add(button);
+    grid.add(label);
+
+    button.clicked.connect(() => {
+      label.label      = _("Kono Sekai!");
+      button.sensitive = false;
+    });
 
     mainWindow.default_height = 360;
     mainWindow.default_width  = 480;
     mainWindow.title          = _("Hello-App");
-    mainWindow.add(label);
+    mainWindow.add(grid);
     mainWindow.show_all();
   }
   
