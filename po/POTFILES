@@ -1,0 +1,3 @@
+src/Application.vala
+data/com.github.ondb.hello-app.desktop.in
+data/com.github.ondb.hello-app.appdata.xml.in
