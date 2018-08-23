@@ -1,3 +1,5 @@
+const string GETTEXT_PACKAGE = "hello";
+
 public class MyApp : Gtk.Application { 
   
   public MyApp() {
