@@ -1,0 +1,7 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: hello-app
+Source: https://github.com/ondb/hello-app
+
+Files: src/* data/* debian/*
+Copyright: 2018 Önder Bakırtaş <ondb.me@gmail.com>
+License: GPL-3.0+

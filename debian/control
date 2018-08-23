@@ -1,0 +1,16 @@
+Source: com.github.ondb.hello-app
+Section: x11
+Priority: extra
+Maintainer: Önder Bakırtaş <ondb.me@gmail.com>
+Build-Depends: debhelper (>= 10.5.1),
+               meson,
+               gettext,
+               libgtk-3-dev (>= 3.10),
+               valac (>= 0.28.0)
+Standards-Version: 4.1.1
+
+Package: com.github.ondb.hello-app
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hey young world
+ This is a Hello World written in Vala using CMake build system.
